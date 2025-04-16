@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#" class="logo">Asheer Adnan</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+      </div>
+      <button class="hamburger"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">M. Asheer Adnan</span></h1>
+        <p class="subtitle">A passionate AI/ML Developer creating digital experiences</p>
+        <a href="#projects" class="btn">View My Work <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.png" alt="Asheer Adnan">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a AI/ML Developer with 2 years of experience in Web Developer. I specialize in creating beautiful, functional websites and applications.</p>
+          <p>When I'm not coding, you can find me [your hobbies/interests].</p>
+          <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>UI/UX Design</span>
+              <span>Responsive Design</span>
+              <!-- Add more skills -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project 1">
+          <div class="project-info">
+            <h3>Project Title 1</h3>
+            <p>Short description of the project and technologies used.</p>
+            <div class="project-links">
+              <a href="#" class="btn small">Live Demo</a>
+              <a href="#" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Project 2">
+          <div class="project-info">
+            <h3>Project Title 2</h3>
+            <p>Short description of the project and technologies used.</p>
+            <div class="project-links">
+              <a href="#" class="btn small">Live Demo</a>
+              <a href="#" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>Feel free to reach out if you're looking for a [your profession], have a question, or just want to connect.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Optional jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</body>
+</html>
